@@ -6,12 +6,12 @@ const HeroText = () => {
         <h2 className="text-2xl lg:text-3xl xl:text-5xl uppercase mb-4">
           Fantasy Sports. For Every Season.
         </h2>
-        <p className="mb-6 text-xl xl:max-w-lg">
+        <p className="mb-6 text-xl xl:max-w-lg font-light">
           Competing with friends doesn’t stop at the final whistle - neither
           should your fantasy league. <span className="block sm:inline mt-6 sm:mt-0">Champions Round is building the arena,
           where your favorite sports and athletes are always in-play.</span>
         </p>
-        <p className="text-xl mb-5">
+        <p className="text-xl mb-5 font-light">
           Join our mailing list for the latest news & updates.
         </p>
         <div className="flex flex-wrap space-y-2 sm:space-y-0 justify-center lg:justify-start sm:space-x-4">
