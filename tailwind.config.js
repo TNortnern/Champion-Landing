@@ -9,7 +9,8 @@ module.exports = {
         "11/25": "44%",
       },
       height: {
-        'hero-img-lg': '560px'
+        'hero-img-lg': '560px',
+        'hero-img-xxl': '680px'
       },
       inset:{
         "hero-left-lg":'11%'
