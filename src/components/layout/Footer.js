@@ -1,40 +1,64 @@
-import React from 'react'
+import React from "react";
 
 const Footer = () => {
-    return (
-      <div
-        className="lg:h-48 py-8 lg:py-0 lg:absolute bottom-0 w-full"
-        style={{
-          backgroundImage: `url(${require("../../assets/bgblue.jpg")})`,
-        }}
-      >
-        <div className="flex flex-wrap-reverse items-center h-full lg:space-y-4 justify-center lg:justify-between mx-auto lg:px-12 px-8 xxl:px-48 container space-y-8">
-          <div className="w-full lg:w-auto flex flex-col items-center lg:block">
-            <h3 className="uppercase text-white text-xl mb-3">Follow Us</h3>
-            <div className="flex space-x-3">
+  return (
+    <div
+      className="lg:h-48 py-8 lg:py-0 lg:absolute bottom-0 w-full"
+      style={{
+        backgroundImage: `url(${require("../../assets/bgblue.jpg")})`,
+      }}
+    >
+      <div className="flex flex-wrap-reverse items-center h-full lg:space-y-4 justify-center lg:justify-between mx-auto lg:px-12 px-8 xxl:px-48 container space-y-8">
+        <div className="w-full lg:w-auto flex flex-col items-center lg:block">
+          <h3 className="uppercase text-white text-xl mb-3">Follow Us</h3>
+          <div className="flex space-x-3">
+            <a
+              href="https://www.facebook.com/championsroundgame"
+              target="__blank"
+              className="opacity-90 hover:opacity-100 duration-200 ease-in-out"
+            >
               <img src={require("../../assets/facebook.png")} alt="" />
+            </a>
+            <a
+              href="https://www.instagram.com/championsround/hj"
+              target="__blank"
+              className="opacity-90 hover:opacity-100 duration-200 ease-in-out"
+            >
               <img
                 src={require("../../assets/instagram-sketched.png")}
                 alt=""
               />
+            </a>
+            <a
+              href="https://twitter.com/championsround?lang=en"
+              target="__blank"
+              className="opacity-90 hover:opacity-100 duration-200 ease-in-out"
+            >
               <img src={require("../../assets/twitter.png")} alt="" />
+            </a>
+            <a
+              href="https://www.youtube.com/channel/UCIDr2G61NA8rC_uKL5pS3sg"
+              target="__blank"
+              className="opacity-90 hover:opacity-100 duration-200 ease-in-out"
+            >
               <img src={require("../../assets/youtube.png")} alt="" />
-            </div>
-          </div>
-          <div className="w-full lg:w-auto flex flex-col items-center lg:block">
-            <div className="mb-3">
-              <img src={require("../../assets/appstore.png")} alt="" />
-            </div>
-            <span className="text-white text-sm hidden lg:block">
-              © Champions Round, Inc. 2020 All Rights Reserved
-            </span>
+            </a>
           </div>
         </div>
-        <span className="text-white text-sm text-center block lg:hidden pb-4 mt-8">
-          © Champions Round, Inc. 2020 All Rights Reserved
-        </span>
+        <div className="w-full lg:w-auto flex flex-col items-center lg:block">
+          <div className="mb-3">
+            <img src={require("../../assets/appstore.png")} alt="" />
+          </div>
+          <span className="text-white text-sm hidden lg:block">
+            © Champions Round, Inc. 2020 All Rights Reserved
+          </span>
+        </div>
       </div>
-    );
-}
+      <span className="text-white text-sm text-center block lg:hidden pb-4 mt-8">
+        © Champions Round, Inc. 2020 All Rights Reserved
+      </span>
+    </div>
+  );
+};
 
 export default Footer;

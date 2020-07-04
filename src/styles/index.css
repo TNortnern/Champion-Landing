@@ -1714,6 +1714,10 @@ video {
   --divide-opacity: 0.75;
 }
 
+.divide-opacity-90 > :not(template) ~ :not(template) {
+  --divide-opacity: 90%;
+}
+
 .divide-opacity-100 > :not(template) ~ :not(template) {
   --divide-opacity: 1;
 }
@@ -3496,6 +3500,10 @@ video {
   --bg-opacity: 0.75;
 }
 
+.bg-opacity-90 {
+  --bg-opacity: 90%;
+}
+
 .bg-opacity-100 {
   --bg-opacity: 1;
 }
@@ -3516,6 +3524,10 @@ video {
   --bg-opacity: 0.75;
 }
 
+.hover\:bg-opacity-90:hover {
+  --bg-opacity: 90%;
+}
+
 .hover\:bg-opacity-100:hover {
   --bg-opacity: 1;
 }
@@ -3534,6 +3546,10 @@ video {
 
 .focus\:bg-opacity-75:focus {
   --bg-opacity: 0.75;
+}
+
+.focus\:bg-opacity-90:focus {
+  --bg-opacity: 90%;
 }
 
 .focus\:bg-opacity-100:focus {
@@ -5334,6 +5350,10 @@ video {
   --border-opacity: 0.75;
 }
 
+.border-opacity-90 {
+  --border-opacity: 90%;
+}
+
 .border-opacity-100 {
   --border-opacity: 1;
 }
@@ -5354,6 +5374,10 @@ video {
   --border-opacity: 0.75;
 }
 
+.hover\:border-opacity-90:hover {
+  --border-opacity: 90%;
+}
+
 .hover\:border-opacity-100:hover {
   --border-opacity: 1;
 }
@@ -5372,6 +5396,10 @@ video {
 
 .focus\:border-opacity-75:focus {
   --border-opacity: 0.75;
+}
+
+.focus\:border-opacity-90:focus {
+  --border-opacity: 90%;
 }
 
 .focus\:border-opacity-100:focus {
@@ -7720,6 +7748,10 @@ video {
   opacity: 0.75;
 }
 
+.opacity-90 {
+  opacity: 90%;
+}
+
 .opacity-100 {
   opacity: 1;
 }
@@ -7740,6 +7772,10 @@ video {
   opacity: 0.75;
 }
 
+.hover\:opacity-90:hover {
+  opacity: 90%;
+}
+
 .hover\:opacity-100:hover {
   opacity: 1;
 }
@@ -7758,6 +7794,10 @@ video {
 
 .focus\:opacity-75:focus {
   opacity: 0.75;
+}
+
+.focus\:opacity-90:focus {
+  opacity: 90%;
 }
 
 .focus\:opacity-100:focus {
@@ -9546,6 +9586,10 @@ video {
   --placeholder-opacity: 0.75;
 }
 
+.placeholder-opacity-90::placeholder {
+  --placeholder-opacity: 90%;
+}
+
 .placeholder-opacity-100::placeholder {
   --placeholder-opacity: 1;
 }
@@ -9564,6 +9608,10 @@ video {
 
 .focus\:placeholder-opacity-75:focus::placeholder {
   --placeholder-opacity: 0.75;
+}
+
+.focus\:placeholder-opacity-90:focus::placeholder {
+  --placeholder-opacity: 90%;
 }
 
 .focus\:placeholder-opacity-100:focus::placeholder {
@@ -11591,6 +11639,10 @@ video {
   --text-opacity: 0.75;
 }
 
+.text-opacity-90 {
+  --text-opacity: 90%;
+}
+
 .text-opacity-100 {
   --text-opacity: 1;
 }
@@ -11611,6 +11663,10 @@ video {
   --text-opacity: 0.75;
 }
 
+.hover\:text-opacity-90:hover {
+  --text-opacity: 90%;
+}
+
 .hover\:text-opacity-100:hover {
   --text-opacity: 1;
 }
@@ -11629,6 +11685,10 @@ video {
 
 .focus\:text-opacity-75:focus {
   --text-opacity: 0.75;
+}
+
+.focus\:text-opacity-90:focus {
+  --text-opacity: 90%;
 }
 
 .focus\:text-opacity-100:focus {
@@ -15575,6 +15635,10 @@ body {
     --divide-opacity: 0.75;
   }
 
+  .sm\:divide-opacity-90 > :not(template) ~ :not(template) {
+    --divide-opacity: 90%;
+  }
+
   .sm\:divide-opacity-100 > :not(template) ~ :not(template) {
     --divide-opacity: 1;
   }
@@ -17357,6 +17421,10 @@ body {
     --bg-opacity: 0.75;
   }
 
+  .sm\:bg-opacity-90 {
+    --bg-opacity: 90%;
+  }
+
   .sm\:bg-opacity-100 {
     --bg-opacity: 1;
   }
@@ -17377,6 +17445,10 @@ body {
     --bg-opacity: 0.75;
   }
 
+  .sm\:hover\:bg-opacity-90:hover {
+    --bg-opacity: 90%;
+  }
+
   .sm\:hover\:bg-opacity-100:hover {
     --bg-opacity: 1;
   }
@@ -17395,6 +17467,10 @@ body {
 
   .sm\:focus\:bg-opacity-75:focus {
     --bg-opacity: 0.75;
+  }
+
+  .sm\:focus\:bg-opacity-90:focus {
+    --bg-opacity: 90%;
   }
 
   .sm\:focus\:bg-opacity-100:focus {
@@ -19195,6 +19271,10 @@ body {
     --border-opacity: 0.75;
   }
 
+  .sm\:border-opacity-90 {
+    --border-opacity: 90%;
+  }
+
   .sm\:border-opacity-100 {
     --border-opacity: 1;
   }
@@ -19215,6 +19295,10 @@ body {
     --border-opacity: 0.75;
   }
 
+  .sm\:hover\:border-opacity-90:hover {
+    --border-opacity: 90%;
+  }
+
   .sm\:hover\:border-opacity-100:hover {
     --border-opacity: 1;
   }
@@ -19233,6 +19317,10 @@ body {
 
   .sm\:focus\:border-opacity-75:focus {
     --border-opacity: 0.75;
+  }
+
+  .sm\:focus\:border-opacity-90:focus {
+    --border-opacity: 90%;
   }
 
   .sm\:focus\:border-opacity-100:focus {
@@ -21581,6 +21669,10 @@ body {
     opacity: 0.75;
   }
 
+  .sm\:opacity-90 {
+    opacity: 90%;
+  }
+
   .sm\:opacity-100 {
     opacity: 1;
   }
@@ -21601,6 +21693,10 @@ body {
     opacity: 0.75;
   }
 
+  .sm\:hover\:opacity-90:hover {
+    opacity: 90%;
+  }
+
   .sm\:hover\:opacity-100:hover {
     opacity: 1;
   }
@@ -21619,6 +21715,10 @@ body {
 
   .sm\:focus\:opacity-75:focus {
     opacity: 0.75;
+  }
+
+  .sm\:focus\:opacity-90:focus {
+    opacity: 90%;
   }
 
   .sm\:focus\:opacity-100:focus {
@@ -23407,6 +23507,10 @@ body {
     --placeholder-opacity: 0.75;
   }
 
+  .sm\:placeholder-opacity-90::placeholder {
+    --placeholder-opacity: 90%;
+  }
+
   .sm\:placeholder-opacity-100::placeholder {
     --placeholder-opacity: 1;
   }
@@ -23425,6 +23529,10 @@ body {
 
   .sm\:focus\:placeholder-opacity-75:focus::placeholder {
     --placeholder-opacity: 0.75;
+  }
+
+  .sm\:focus\:placeholder-opacity-90:focus::placeholder {
+    --placeholder-opacity: 90%;
   }
 
   .sm\:focus\:placeholder-opacity-100:focus::placeholder {
@@ -25452,6 +25560,10 @@ body {
     --text-opacity: 0.75;
   }
 
+  .sm\:text-opacity-90 {
+    --text-opacity: 90%;
+  }
+
   .sm\:text-opacity-100 {
     --text-opacity: 1;
   }
@@ -25472,6 +25584,10 @@ body {
     --text-opacity: 0.75;
   }
 
+  .sm\:hover\:text-opacity-90:hover {
+    --text-opacity: 90%;
+  }
+
   .sm\:hover\:text-opacity-100:hover {
     --text-opacity: 1;
   }
@@ -25490,6 +25606,10 @@ body {
 
   .sm\:focus\:text-opacity-75:focus {
     --text-opacity: 0.75;
+  }
+
+  .sm\:focus\:text-opacity-90:focus {
+    --text-opacity: 90%;
   }
 
   .sm\:focus\:text-opacity-100:focus {
@@ -29431,6 +29551,10 @@ body {
     --divide-opacity: 0.75;
   }
 
+  .md\:divide-opacity-90 > :not(template) ~ :not(template) {
+    --divide-opacity: 90%;
+  }
+
   .md\:divide-opacity-100 > :not(template) ~ :not(template) {
     --divide-opacity: 1;
   }
@@ -31213,6 +31337,10 @@ body {
     --bg-opacity: 0.75;
   }
 
+  .md\:bg-opacity-90 {
+    --bg-opacity: 90%;
+  }
+
   .md\:bg-opacity-100 {
     --bg-opacity: 1;
   }
@@ -31233,6 +31361,10 @@ body {
     --bg-opacity: 0.75;
   }
 
+  .md\:hover\:bg-opacity-90:hover {
+    --bg-opacity: 90%;
+  }
+
   .md\:hover\:bg-opacity-100:hover {
     --bg-opacity: 1;
   }
@@ -31251,6 +31383,10 @@ body {
 
   .md\:focus\:bg-opacity-75:focus {
     --bg-opacity: 0.75;
+  }
+
+  .md\:focus\:bg-opacity-90:focus {
+    --bg-opacity: 90%;
   }
 
   .md\:focus\:bg-opacity-100:focus {
@@ -33051,6 +33187,10 @@ body {
     --border-opacity: 0.75;
   }
 
+  .md\:border-opacity-90 {
+    --border-opacity: 90%;
+  }
+
   .md\:border-opacity-100 {
     --border-opacity: 1;
   }
@@ -33071,6 +33211,10 @@ body {
     --border-opacity: 0.75;
   }
 
+  .md\:hover\:border-opacity-90:hover {
+    --border-opacity: 90%;
+  }
+
   .md\:hover\:border-opacity-100:hover {
     --border-opacity: 1;
   }
@@ -33089,6 +33233,10 @@ body {
 
   .md\:focus\:border-opacity-75:focus {
     --border-opacity: 0.75;
+  }
+
+  .md\:focus\:border-opacity-90:focus {
+    --border-opacity: 90%;
   }
 
   .md\:focus\:border-opacity-100:focus {
@@ -35437,6 +35585,10 @@ body {
     opacity: 0.75;
   }
 
+  .md\:opacity-90 {
+    opacity: 90%;
+  }
+
   .md\:opacity-100 {
     opacity: 1;
   }
@@ -35457,6 +35609,10 @@ body {
     opacity: 0.75;
   }
 
+  .md\:hover\:opacity-90:hover {
+    opacity: 90%;
+  }
+
   .md\:hover\:opacity-100:hover {
     opacity: 1;
   }
@@ -35475,6 +35631,10 @@ body {
 
   .md\:focus\:opacity-75:focus {
     opacity: 0.75;
+  }
+
+  .md\:focus\:opacity-90:focus {
+    opacity: 90%;
   }
 
   .md\:focus\:opacity-100:focus {
@@ -37263,6 +37423,10 @@ body {
     --placeholder-opacity: 0.75;
   }
 
+  .md\:placeholder-opacity-90::placeholder {
+    --placeholder-opacity: 90%;
+  }
+
   .md\:placeholder-opacity-100::placeholder {
     --placeholder-opacity: 1;
   }
@@ -37281,6 +37445,10 @@ body {
 
   .md\:focus\:placeholder-opacity-75:focus::placeholder {
     --placeholder-opacity: 0.75;
+  }
+
+  .md\:focus\:placeholder-opacity-90:focus::placeholder {
+    --placeholder-opacity: 90%;
   }
 
   .md\:focus\:placeholder-opacity-100:focus::placeholder {
@@ -39308,6 +39476,10 @@ body {
     --text-opacity: 0.75;
   }
 
+  .md\:text-opacity-90 {
+    --text-opacity: 90%;
+  }
+
   .md\:text-opacity-100 {
     --text-opacity: 1;
   }
@@ -39328,6 +39500,10 @@ body {
     --text-opacity: 0.75;
   }
 
+  .md\:hover\:text-opacity-90:hover {
+    --text-opacity: 90%;
+  }
+
   .md\:hover\:text-opacity-100:hover {
     --text-opacity: 1;
   }
@@ -39346,6 +39522,10 @@ body {
 
   .md\:focus\:text-opacity-75:focus {
     --text-opacity: 0.75;
+  }
+
+  .md\:focus\:text-opacity-90:focus {
+    --text-opacity: 90%;
   }
 
   .md\:focus\:text-opacity-100:focus {
@@ -43287,6 +43467,10 @@ body {
     --divide-opacity: 0.75;
   }
 
+  .lg\:divide-opacity-90 > :not(template) ~ :not(template) {
+    --divide-opacity: 90%;
+  }
+
   .lg\:divide-opacity-100 > :not(template) ~ :not(template) {
     --divide-opacity: 1;
   }
@@ -45069,6 +45253,10 @@ body {
     --bg-opacity: 0.75;
   }
 
+  .lg\:bg-opacity-90 {
+    --bg-opacity: 90%;
+  }
+
   .lg\:bg-opacity-100 {
     --bg-opacity: 1;
   }
@@ -45089,6 +45277,10 @@ body {
     --bg-opacity: 0.75;
   }
 
+  .lg\:hover\:bg-opacity-90:hover {
+    --bg-opacity: 90%;
+  }
+
   .lg\:hover\:bg-opacity-100:hover {
     --bg-opacity: 1;
   }
@@ -45107,6 +45299,10 @@ body {
 
   .lg\:focus\:bg-opacity-75:focus {
     --bg-opacity: 0.75;
+  }
+
+  .lg\:focus\:bg-opacity-90:focus {
+    --bg-opacity: 90%;
   }
 
   .lg\:focus\:bg-opacity-100:focus {
@@ -46907,6 +47103,10 @@ body {
     --border-opacity: 0.75;
   }
 
+  .lg\:border-opacity-90 {
+    --border-opacity: 90%;
+  }
+
   .lg\:border-opacity-100 {
     --border-opacity: 1;
   }
@@ -46927,6 +47127,10 @@ body {
     --border-opacity: 0.75;
   }
 
+  .lg\:hover\:border-opacity-90:hover {
+    --border-opacity: 90%;
+  }
+
   .lg\:hover\:border-opacity-100:hover {
     --border-opacity: 1;
   }
@@ -46945,6 +47149,10 @@ body {
 
   .lg\:focus\:border-opacity-75:focus {
     --border-opacity: 0.75;
+  }
+
+  .lg\:focus\:border-opacity-90:focus {
+    --border-opacity: 90%;
   }
 
   .lg\:focus\:border-opacity-100:focus {
@@ -49293,6 +49501,10 @@ body {
     opacity: 0.75;
   }
 
+  .lg\:opacity-90 {
+    opacity: 90%;
+  }
+
   .lg\:opacity-100 {
     opacity: 1;
   }
@@ -49313,6 +49525,10 @@ body {
     opacity: 0.75;
   }
 
+  .lg\:hover\:opacity-90:hover {
+    opacity: 90%;
+  }
+
   .lg\:hover\:opacity-100:hover {
     opacity: 1;
   }
@@ -49331,6 +49547,10 @@ body {
 
   .lg\:focus\:opacity-75:focus {
     opacity: 0.75;
+  }
+
+  .lg\:focus\:opacity-90:focus {
+    opacity: 90%;
   }
 
   .lg\:focus\:opacity-100:focus {
@@ -51119,6 +51339,10 @@ body {
     --placeholder-opacity: 0.75;
   }
 
+  .lg\:placeholder-opacity-90::placeholder {
+    --placeholder-opacity: 90%;
+  }
+
   .lg\:placeholder-opacity-100::placeholder {
     --placeholder-opacity: 1;
   }
@@ -51137,6 +51361,10 @@ body {
 
   .lg\:focus\:placeholder-opacity-75:focus::placeholder {
     --placeholder-opacity: 0.75;
+  }
+
+  .lg\:focus\:placeholder-opacity-90:focus::placeholder {
+    --placeholder-opacity: 90%;
   }
 
   .lg\:focus\:placeholder-opacity-100:focus::placeholder {
@@ -53164,6 +53392,10 @@ body {
     --text-opacity: 0.75;
   }
 
+  .lg\:text-opacity-90 {
+    --text-opacity: 90%;
+  }
+
   .lg\:text-opacity-100 {
     --text-opacity: 1;
   }
@@ -53184,6 +53416,10 @@ body {
     --text-opacity: 0.75;
   }
 
+  .lg\:hover\:text-opacity-90:hover {
+    --text-opacity: 90%;
+  }
+
   .lg\:hover\:text-opacity-100:hover {
     --text-opacity: 1;
   }
@@ -53202,6 +53438,10 @@ body {
 
   .lg\:focus\:text-opacity-75:focus {
     --text-opacity: 0.75;
+  }
+
+  .lg\:focus\:text-opacity-90:focus {
+    --text-opacity: 90%;
   }
 
   .lg\:focus\:text-opacity-100:focus {
@@ -57143,6 +57383,10 @@ body {
     --divide-opacity: 0.75;
   }
 
+  .xl\:divide-opacity-90 > :not(template) ~ :not(template) {
+    --divide-opacity: 90%;
+  }
+
   .xl\:divide-opacity-100 > :not(template) ~ :not(template) {
     --divide-opacity: 1;
   }
@@ -58925,6 +59169,10 @@ body {
     --bg-opacity: 0.75;
   }
 
+  .xl\:bg-opacity-90 {
+    --bg-opacity: 90%;
+  }
+
   .xl\:bg-opacity-100 {
     --bg-opacity: 1;
   }
@@ -58945,6 +59193,10 @@ body {
     --bg-opacity: 0.75;
   }
 
+  .xl\:hover\:bg-opacity-90:hover {
+    --bg-opacity: 90%;
+  }
+
   .xl\:hover\:bg-opacity-100:hover {
     --bg-opacity: 1;
   }
@@ -58963,6 +59215,10 @@ body {
 
   .xl\:focus\:bg-opacity-75:focus {
     --bg-opacity: 0.75;
+  }
+
+  .xl\:focus\:bg-opacity-90:focus {
+    --bg-opacity: 90%;
   }
 
   .xl\:focus\:bg-opacity-100:focus {
@@ -60763,6 +61019,10 @@ body {
     --border-opacity: 0.75;
   }
 
+  .xl\:border-opacity-90 {
+    --border-opacity: 90%;
+  }
+
   .xl\:border-opacity-100 {
     --border-opacity: 1;
   }
@@ -60783,6 +61043,10 @@ body {
     --border-opacity: 0.75;
   }
 
+  .xl\:hover\:border-opacity-90:hover {
+    --border-opacity: 90%;
+  }
+
   .xl\:hover\:border-opacity-100:hover {
     --border-opacity: 1;
   }
@@ -60801,6 +61065,10 @@ body {
 
   .xl\:focus\:border-opacity-75:focus {
     --border-opacity: 0.75;
+  }
+
+  .xl\:focus\:border-opacity-90:focus {
+    --border-opacity: 90%;
   }
 
   .xl\:focus\:border-opacity-100:focus {
@@ -63149,6 +63417,10 @@ body {
     opacity: 0.75;
   }
 
+  .xl\:opacity-90 {
+    opacity: 90%;
+  }
+
   .xl\:opacity-100 {
     opacity: 1;
   }
@@ -63169,6 +63441,10 @@ body {
     opacity: 0.75;
   }
 
+  .xl\:hover\:opacity-90:hover {
+    opacity: 90%;
+  }
+
   .xl\:hover\:opacity-100:hover {
     opacity: 1;
   }
@@ -63187,6 +63463,10 @@ body {
 
   .xl\:focus\:opacity-75:focus {
     opacity: 0.75;
+  }
+
+  .xl\:focus\:opacity-90:focus {
+    opacity: 90%;
   }
 
   .xl\:focus\:opacity-100:focus {
@@ -64975,6 +65255,10 @@ body {
     --placeholder-opacity: 0.75;
   }
 
+  .xl\:placeholder-opacity-90::placeholder {
+    --placeholder-opacity: 90%;
+  }
+
   .xl\:placeholder-opacity-100::placeholder {
     --placeholder-opacity: 1;
   }
@@ -64993,6 +65277,10 @@ body {
 
   .xl\:focus\:placeholder-opacity-75:focus::placeholder {
     --placeholder-opacity: 0.75;
+  }
+
+  .xl\:focus\:placeholder-opacity-90:focus::placeholder {
+    --placeholder-opacity: 90%;
   }
 
   .xl\:focus\:placeholder-opacity-100:focus::placeholder {
@@ -67020,6 +67308,10 @@ body {
     --text-opacity: 0.75;
   }
 
+  .xl\:text-opacity-90 {
+    --text-opacity: 90%;
+  }
+
   .xl\:text-opacity-100 {
     --text-opacity: 1;
   }
@@ -67040,6 +67332,10 @@ body {
     --text-opacity: 0.75;
   }
 
+  .xl\:hover\:text-opacity-90:hover {
+    --text-opacity: 90%;
+  }
+
   .xl\:hover\:text-opacity-100:hover {
     --text-opacity: 1;
   }
@@ -67058,6 +67354,10 @@ body {
 
   .xl\:focus\:text-opacity-75:focus {
     --text-opacity: 0.75;
+  }
+
+  .xl\:focus\:text-opacity-90:focus {
+    --text-opacity: 90%;
   }
 
   .xl\:focus\:text-opacity-100:focus {
@@ -70999,6 +71299,10 @@ body {
     --divide-opacity: 0.75;
   }
 
+  .xxl\:divide-opacity-90 > :not(template) ~ :not(template) {
+    --divide-opacity: 90%;
+  }
+
   .xxl\:divide-opacity-100 > :not(template) ~ :not(template) {
     --divide-opacity: 1;
   }
@@ -72781,6 +73085,10 @@ body {
     --bg-opacity: 0.75;
   }
 
+  .xxl\:bg-opacity-90 {
+    --bg-opacity: 90%;
+  }
+
   .xxl\:bg-opacity-100 {
     --bg-opacity: 1;
   }
@@ -72801,6 +73109,10 @@ body {
     --bg-opacity: 0.75;
   }
 
+  .xxl\:hover\:bg-opacity-90:hover {
+    --bg-opacity: 90%;
+  }
+
   .xxl\:hover\:bg-opacity-100:hover {
     --bg-opacity: 1;
   }
@@ -72819,6 +73131,10 @@ body {
 
   .xxl\:focus\:bg-opacity-75:focus {
     --bg-opacity: 0.75;
+  }
+
+  .xxl\:focus\:bg-opacity-90:focus {
+    --bg-opacity: 90%;
   }
 
   .xxl\:focus\:bg-opacity-100:focus {
@@ -74619,6 +74935,10 @@ body {
     --border-opacity: 0.75;
   }
 
+  .xxl\:border-opacity-90 {
+    --border-opacity: 90%;
+  }
+
   .xxl\:border-opacity-100 {
     --border-opacity: 1;
   }
@@ -74639,6 +74959,10 @@ body {
     --border-opacity: 0.75;
   }
 
+  .xxl\:hover\:border-opacity-90:hover {
+    --border-opacity: 90%;
+  }
+
   .xxl\:hover\:border-opacity-100:hover {
     --border-opacity: 1;
   }
@@ -74657,6 +74981,10 @@ body {
 
   .xxl\:focus\:border-opacity-75:focus {
     --border-opacity: 0.75;
+  }
+
+  .xxl\:focus\:border-opacity-90:focus {
+    --border-opacity: 90%;
   }
 
   .xxl\:focus\:border-opacity-100:focus {
@@ -77005,6 +77333,10 @@ body {
     opacity: 0.75;
   }
 
+  .xxl\:opacity-90 {
+    opacity: 90%;
+  }
+
   .xxl\:opacity-100 {
     opacity: 1;
   }
@@ -77025,6 +77357,10 @@ body {
     opacity: 0.75;
   }
 
+  .xxl\:hover\:opacity-90:hover {
+    opacity: 90%;
+  }
+
   .xxl\:hover\:opacity-100:hover {
     opacity: 1;
   }
@@ -77043,6 +77379,10 @@ body {
 
   .xxl\:focus\:opacity-75:focus {
     opacity: 0.75;
+  }
+
+  .xxl\:focus\:opacity-90:focus {
+    opacity: 90%;
   }
 
   .xxl\:focus\:opacity-100:focus {
@@ -78831,6 +79171,10 @@ body {
     --placeholder-opacity: 0.75;
   }
 
+  .xxl\:placeholder-opacity-90::placeholder {
+    --placeholder-opacity: 90%;
+  }
+
   .xxl\:placeholder-opacity-100::placeholder {
     --placeholder-opacity: 1;
   }
@@ -78849,6 +79193,10 @@ body {
 
   .xxl\:focus\:placeholder-opacity-75:focus::placeholder {
     --placeholder-opacity: 0.75;
+  }
+
+  .xxl\:focus\:placeholder-opacity-90:focus::placeholder {
+    --placeholder-opacity: 90%;
   }
 
   .xxl\:focus\:placeholder-opacity-100:focus::placeholder {
@@ -80876,6 +81224,10 @@ body {
     --text-opacity: 0.75;
   }
 
+  .xxl\:text-opacity-90 {
+    --text-opacity: 90%;
+  }
+
   .xxl\:text-opacity-100 {
     --text-opacity: 1;
   }
@@ -80896,6 +81248,10 @@ body {
     --text-opacity: 0.75;
   }
 
+  .xxl\:hover\:text-opacity-90:hover {
+    --text-opacity: 90%;
+  }
+
   .xxl\:hover\:text-opacity-100:hover {
     --text-opacity: 1;
   }
@@ -80914,6 +81270,10 @@ body {
 
   .xxl\:focus\:text-opacity-75:focus {
     --text-opacity: 0.75;
+  }
+
+  .xxl\:focus\:text-opacity-90:focus {
+    --text-opacity: 90%;
   }
 
   .xxl\:focus\:text-opacity-100:focus {

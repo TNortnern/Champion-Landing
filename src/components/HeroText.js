@@ -8,13 +8,18 @@ const HeroText = () => {
         </h2>
         <p className="mb-6 text-xl xl:max-w-lg font-light">
           Competing with friends doesn’t stop at the final whistle - neither
-          should your fantasy league. <span className="block sm:inline mt-6 sm:mt-0">Champions Round is building the arena,
-          where your favorite sports and athletes are always in-play.</span>
+          should your fantasy league.{" "}
+          <span className="block sm:inline mt-6 sm:mt-0">
+            Champions Round is building the arena, where your favorite sports
+            and athletes are always in-play.
+          </span>
         </p>
         <p className="text-xl mb-5 font-light">
           Join our mailing list for the latest news & updates.
         </p>
-        <div className="flex flex-wrap space-y-2 sm:space-y-0 justify-center lg:justify-start sm:space-x-4">
+        <form
+          className="flex flex-wrap space-y-2 sm:space-y-0 justify-center lg:justify-start sm:space-x-4"
+        >
           <input
             type="text"
             placeholder="Email"
@@ -23,7 +28,7 @@ const HeroText = () => {
           <button className="bg-pink-500 text-white rounded-md py-2 px-6 w-full sm:w-auto">
             Subscribe
           </button>
-        </div>
+        </form>
       </div>
     );
 }

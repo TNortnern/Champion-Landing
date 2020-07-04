@@ -17,6 +17,9 @@ module.exports = {
       screens: {
         xxl: "1600px",
       },
+      opacity: {
+        "90": "90%"
+      }
     },
   },
   variants: {},
