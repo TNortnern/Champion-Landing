@@ -14772,6 +14772,17 @@ body {
   src: url('../assets/font/circular-bold.otf');
 }
 
+.mailchimp a {
+  color: #003DA3;
+  opacity: 0.92;
+  display: block;
+}
+
+.mailchimp a:hover {
+  text-decoration: underline;
+  opacity: 1;
+}
+
 @media (min-width: 640px) {
   .sm\:space-y-0 > :not(template) ~ :not(template) {
     --space-y-reverse: 0;

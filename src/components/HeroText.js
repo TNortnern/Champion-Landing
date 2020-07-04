@@ -59,7 +59,8 @@ const HeroText = () => {
               {status === "error" && (
                 <div
                   dangerouslySetInnerHTML={{ __html: message }}
-                  className={`${cardClasses} text-red-600`}
+                  target="_blank"
+                  className={`${cardClasses} text-red-600 mailchimp`}
                 ></div>
               )}
               {status === "success" && (
