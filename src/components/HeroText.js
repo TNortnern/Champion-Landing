@@ -51,7 +51,7 @@ const HeroText = () => {
               />
 
               {status === "sending" && (
-                <div className="text-center mt-2 text-blue-400">Subscribing...</div>
+                <div className="text-center mt-2 text-blue-600">Subscribing...</div>
               )}
               {status === "error" && (
                 <div
@@ -61,7 +61,7 @@ const HeroText = () => {
                 </div>
               )}
               {status === "success" && (
-                <div className="text-center mt-2 text-green-500">
+                <div className="text-center mt-2 text-green-700">
                   Your are now subscribed to Champions Round!
                 </div>
               )}
@@ -69,8 +69,8 @@ const HeroText = () => {
             <div>
               <button
                 type="submit"
-                className={`bg-pink-500 text-white ${
-                  status === "sending" ? "opacity-50 pointer-events-none" : ""
+                className={`bg-main-pink-500 text-white ${
+                  status === "sending" ? "opacity-50 pointer-events-none focus:outline-none" : ""
                 } rounded-md py-2 px-6 w-full sm:w-auto`}
               >
                 Subscribe
