@@ -23,7 +23,7 @@ module.exports = {
         "85": "85%",
       },
       padding: {
-        "footer-lg": "5.8rem",
+        "footer-lg": "6.04rem",
         "footer-xl": "5.05rem",
         "footer-xxl": "14.4rem",
       }
