@@ -54,7 +54,7 @@ const Footer = () => {
           </span>
         </div>
       </div>
-      <span className="text-white text-sm text-center block lg:hidden pb-4 mt-8">
+      <span className="text-white text-xs sm:text-sm text-center block lg:hidden pb-4 mt-8 px-6">
         © Champions Round, Inc. 2020 All Rights Reserved
       </span>
     </div>

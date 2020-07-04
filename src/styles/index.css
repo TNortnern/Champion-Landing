@@ -14526,10 +14526,24 @@ video {
   transition-delay: 1000ms;
 }
 
-@import url("https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap");
+/* @import url("https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap"); */
 
 body {
-  font-family: "Lato", sans-serif;
+  /* font-family: 'Circular Std Medium'; */
+}
+
+@font-face {
+  font-family: 'Circular Std Medium';
+
+  src: url("../assets/font/circular-book.otf") format("opentype");
+}
+
+@font-face {
+  font-family: 'Circular Std Medium';
+
+  font-weight: 700;
+
+  src: url('../assets/font/circular-bold.otf');
 }
 
 @media (min-width: 640px) {
