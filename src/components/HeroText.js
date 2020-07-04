@@ -4,8 +4,9 @@ import MailchimpSubscribe from "react-mailchimp-subscribe";
 const HeroText = () => {
   const url =
     "https://championsround.us20.list-manage.com/subscribe/post?u=44b2ca89ff52f128d609cb138&amp;id=f58c83fc50";
-  const SimpleForm = () => <MailchimpSubscribe url={url} />;
   let email;
+  const cardClasses =
+    "bg-white shadow-lg relative sm:absolute mt-3 mb-3 sm:mt-2 sm:mb-0 w-full rounded-sm py-2 px-3 z-50 text-xs sm:text-sm text-center sm:text-left";
   return (
     <div className="w-11/12 text-left sm:text-center lg:text-left lg:w-11/25 xl:w-1/2 pt-4 xl:pt-20">
       <h2 className="text-2xl lg:text-3xl xl:text-5xl uppercase mb-4">
@@ -51,17 +52,18 @@ const HeroText = () => {
               />
 
               {status === "sending" && (
-                <div className="text-center mt-2 text-blue-600">Subscribing...</div>
+                <div className={`${cardClasses} text-blue-700`}>
+                  Subscribing...
+                </div>
               )}
               {status === "error" && (
                 <div
                   dangerouslySetInnerHTML={{ __html: message }}
-                  className="bg-white shadow-lg absolute w-full mt-2 rounded-sm py-1 px-2 z-50 text-red-600"
-                >
-                </div>
+                  className={`${cardClasses} text-red-600`}
+                ></div>
               )}
               {status === "success" && (
-                <div className="text-center mt-2 text-green-700">
+                <div className={`${cardClasses} text-green-700`}>
                   Your are now subscribed to Champions Round!
                 </div>
               )}
@@ -70,7 +72,9 @@ const HeroText = () => {
               <button
                 type="submit"
                 className={`bg-main-pink-500 text-white ${
-                  status === "sending" ? "opacity-50 pointer-events-none focus:outline-none" : ""
+                  status === "sending"
+                    ? "opacity-50 pointer-events-none focus:outline-none"
+                    : ""
                 } rounded-md py-2 px-6 w-full sm:w-auto`}
               >
                 Subscribe
