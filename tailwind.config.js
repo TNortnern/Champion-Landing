@@ -10,7 +10,7 @@ module.exports = {
       },
       height: {
         'hero-img-lg': '560px',
-        'hero-img-xxl': '680px'
+        'hero-img-xxl': '640px'
       },
       inset:{
         "hero-left-lg":'11%'
@@ -21,6 +21,11 @@ module.exports = {
       opacity: {
         "90": "90%",
         "85": "85%",
+      },
+      padding: {
+        "footer-lg": "6.04rem",
+        "footer-xl": "5.05rem",
+        "footer-xxl": "14.4rem",
       }
     },
   },
