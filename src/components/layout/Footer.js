@@ -47,7 +47,13 @@ const Footer = () => {
         </div>
         <div className="w-full lg:w-auto flex flex-col items-center lg:block">
           <div className="mb-3">
-            <img src={require("../../assets/appstore.png")} alt="" />
+            <a
+              href="https://apps.apple.com/app/apple-store/id1460675793?mt=8"
+              target="__blank"
+              className="opacity-85 hover:opacity-100 duration-200 ease-in-out inline-block"
+            >
+              <img src={require("../../assets/appstore.png")} alt="" />
+            </a>
           </div>
           <span className="text-white text-sm hidden lg:block">
             © Champions Round, Inc. 2020 All Rights Reserved
