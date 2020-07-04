@@ -51,17 +51,17 @@ const HeroText = () => {
               />
 
               {status === "sending" && (
-                <div className="text-center mt-2">Subscribing...</div>
+                <div className="text-center mt-2 text-blue-400">Subscribing...</div>
               )}
               {status === "error" && (
                 <div
                   dangerouslySetInnerHTML={{ __html: message }}
-                  className="bg-white shadow-lg absolute w-full mt-2 rounded-sm py-1 px-2 z-50"
+                  className="bg-white shadow-lg absolute w-full mt-2 rounded-sm py-1 px-2 z-50 text-red-600"
                 >
                 </div>
               )}
               {status === "success" && (
-                <div className="text-center mt-2">
+                <div className="text-center mt-2 text-green-500">
                   Your are now subscribed to Champions Round!
                 </div>
               )}
