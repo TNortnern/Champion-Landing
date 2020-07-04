@@ -24,7 +24,7 @@ const HeroText = () => {
           name="mc-embedded-subscribe-form"
           target="_blank"
           novalidate
-          className="flex flex-wrap space-y-2 sm:space-y-0 justify-center lg:justify-start sm:space-x-4 validate"
+          className="flex flex-wrap lg:flex-no-wrap space-y-2 sm:space-y-0 justify-center lg:justify-start sm:space-x-4 validate"
         >
           <input
             placeholder="Your Email"
