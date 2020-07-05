@@ -14783,6 +14783,18 @@ body {
   opacity: 1;
 }
 
+.opacity-90 {
+  opacity: .90;
+}
+
+.scale-105 {
+  transform: scale(1.05);
+}
+
+.scale-102 {
+  transform: scale(1.99);
+}
+
 @media (min-width: 640px) {
   .sm\:space-y-0 > :not(template) ~ :not(template) {
     --space-y-reverse: 0;

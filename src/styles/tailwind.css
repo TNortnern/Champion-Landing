@@ -30,3 +30,14 @@ body {
   text-decoration: underline;
   opacity: 1;
 }
+
+.opacity-90 {
+  opacity: .90;
+}
+
+.scale-105 {
+  transform: scale(1.05);
+}
+.scale-102 {
+  transform: scale(1.99);
+}

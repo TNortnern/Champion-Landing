@@ -15,14 +15,14 @@ const Footer = () => {
             <a
               href="https://www.facebook.com/championsroundgame"
               target="__blank"
-              className="opacity-75 hover:opacity-100 duration-200 ease-in-out"
+              className="opacity-90 transform hover:scale-105 hover:opacity-100 duration-200 ease-in-out"
             >
               <img src={require("../../assets/facebook.png")} alt="" />
             </a>
             <a
               href="https://www.instagram.com/championsround/hj"
               target="__blank"
-              className="opacity-75 hover:opacity-100 duration-200 ease-in-out"
+              className="opacity-90 transform hover:scale-105 hover:opacity-100 duration-200 ease-in-out"
             >
               <img
                 src={require("../../assets/instagram-sketched.png")}
@@ -32,14 +32,14 @@ const Footer = () => {
             <a
               href="https://twitter.com/championsround?lang=en"
               target="__blank"
-              className="opacity-75 hover:opacity-100 duration-200 ease-in-out"
+              className="opacity-90 transform hover:scale-105 hover:opacity-100 duration-200 ease-in-out"
             >
               <img src={require("../../assets/twitter.png")} alt="" />
             </a>
             <a
               href="https://www.youtube.com/channel/UCIDr2G61NA8rC_uKL5pS3sg"
               target="__blank"
-              className="opacity-75 hover:opacity-100 duration-200 ease-in-out"
+              className="opacity-90 transform hover:scale-105 hover:opacity-100 duration-200 ease-in-out"
             >
               <img src={require("../../assets/youtube.png")} alt="" />
             </a>
@@ -50,7 +50,7 @@ const Footer = () => {
             <a
               href="https://apps.apple.com/app/apple-store/id1460675793?mt=8"
               target="__blank"
-              className="opacity-75 hover:opacity-100 duration-200 ease-in-out inline-block"
+              className="opacity-90 transform hover:scale-105 hover:opacity-100 duration-200 ease-in-out inline-block"
             >
               <img src={require("../../assets/appstore.png")} alt="" />
             </a>
