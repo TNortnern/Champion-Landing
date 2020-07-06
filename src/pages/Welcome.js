@@ -9,7 +9,7 @@ const Welcome = () => {
   }, [])
   return (
     <Layout>
-      <div className="container pt-12 mx-auto lg:px-24 xl:px-20 px-0">
+      <div className="container pt-12 mx-auto lg:px-24 xl:px-20 md:px-8">
         <div className="xxl:w-4/5 mx-auto">
           <Logo />
           <div className="flex flex-wrap justify-center lg:justify-between lg:mt-16 xl:mt-0">

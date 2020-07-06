@@ -11,11 +11,13 @@ module.exports = {
         "11/25": "44%",
       },
       height: {
+        "hero-img-md": "450px",
         "hero-img-lg": "560px",
         "hero-img-xxl": "640px",
       },
       inset: {
         "hero-left-lg": "11%",
+        "hero-left-md": "16%",
       },
       screens: {
         xxl: "1600px",

@@ -8,7 +8,7 @@ const HeroText = () => {
   const cardClasses =
     "bg-white shadow-lg relative sm:absolute mt-3 mb-3 sm:mt-2 sm:mb-0 w-full rounded-sm py-2 px-3 z-50 text-xs sm:text-sm text-center sm:text-left";
   return (
-    <div className="w-11/12 text-left lg:w-11/25 xl:w-1/2 pt-4 xl:pt-20 flex flex-col px-4 sm:px-0 sm:block">
+    <div className="w-11/12 md:w-1/2 text-left lg:w-11/25 xl:w-1/2 pt-4 xl:pt-20 flex flex-col px-4 sm:px-0 sm:block">
       <h2 className="text-mobile-h2 lg:text-4xl xl:text-5xl uppercase mb-4 font-bold text-left whitespace-no-wrap">
         Fantasy Sports. <span className="block">For Every Season.</span>
       </h2>
@@ -38,7 +38,7 @@ const HeroText = () => {
             name="mc-embedded-subscribe-form"
             target="_blank"
             novalidate
-            className="flex flex-wrap lg:flex-no-wrap space-y-2 sm:space-y-0 justify-start sm:space-x-4 validate px-0"
+            className="flex flex-wrap md:flex-no-wrap space-y-2 sm:space-y-0 justify-start sm:space-x-4 validate px-0"
           >
             <div className="w-full sm:w-64 relative">
               <input
