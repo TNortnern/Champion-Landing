@@ -9,8 +9,8 @@ const HeroText = () => {
     "bg-white shadow-lg relative sm:absolute mt-3 mb-3 sm:mt-2 sm:mb-0 w-full rounded-sm py-2 px-3 z-50 text-xs sm:text-sm text-center sm:text-left";
   return (
     <div className="w-11/12 text-left sm:text-center lg:text-left lg:w-11/25 xl:w-1/2 pt-4 xl:pt-20">
-      <h2 className="text-2xl lg:text-3xl xl:text-5xl uppercase mb-4">
-        Fantasy Sports. For Every Season.
+      <h2 className="text-2xl lg:text-3xl xl:text-5xl uppercase mb-4 font-bold">
+        Fantasy Sports. <span className="block">For Every Season.</span>
       </h2>
       <p className="mb-6 text-xl xl:max-w-lg font-light">
         Competing with friends doesn’t stop at the final whistle - neither
