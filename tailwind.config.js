@@ -32,7 +32,7 @@ module.exports = {
         "footer-xxl": "14.4rem",
       },
       fontSize: {
-        'mobile-h2': "1.91rem"
+        'mobile-h2': "1.83rem"
       }
     },
   },
