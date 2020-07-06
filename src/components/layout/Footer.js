@@ -3,7 +3,7 @@ import React from "react";
 const Footer = () => {
   return (
     <div
-      className="sm:h-56 py-8 lg:py-0 lg:absolute bottom-0 w-full"
+      className="lg:h-56 py-8 lg:py-0 lg:absolute bottom-0 w-full"
       style={{
         backgroundImage: `url(${require("../../assets/bgblue.jpg")})`,
       }}
