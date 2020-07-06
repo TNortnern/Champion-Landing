@@ -4,7 +4,7 @@ import Footer from "./Footer";
 const Layout = ({ children }) => {
   return (
     <div className="min-h-screen relative">
-      <div className="pb-12 md:pb-56">{children}</div>
+      <div className="pb-12 sm:pb-56">{children}</div>
       <Footer />
     </div>
   );

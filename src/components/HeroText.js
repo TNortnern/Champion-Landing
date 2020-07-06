@@ -8,8 +8,8 @@ const HeroText = () => {
   const cardClasses =
     "bg-white shadow-lg relative sm:absolute mt-3 mb-3 sm:mt-2 sm:mb-0 w-full rounded-sm py-2 px-3 z-50 text-xs sm:text-sm text-center sm:text-left";
   return (
-    <div className="w-11/12 md:w-1/2 text-left lg:w-11/25 xl:w-1/2 pt-4 xl:pt-20 flex flex-col px-4 sm:px-0 sm:block">
-      <h2 className="text-mobile-h2 lg:text-4xl xl:text-5xl uppercase mb-4 font-bold text-left whitespace-no-wrap">
+    <div className="w-11/12 md:w-1/2 text-left lg:w-11/25 xl:w-1/2 pt-4 xl:pt-20 flex flex-col items-center px-4 sm:px-0 sm:block">
+      <h2 className="text-mobile-h2 lg:text-4xl xl:text-5xl uppercase mb-4 font-bold text-left whitespace-no-wrap inline-flex flex-col items-center w-full md:block">
         Fantasy Sports. <span className="block">For Every Season.</span>
       </h2>
       <p className="mb-6 text-xl xl:max-w-lg font-light lg:px-0">
@@ -38,12 +38,12 @@ const HeroText = () => {
             name="mc-embedded-subscribe-form"
             target="_blank"
             novalidate
-            className="flex flex-wrap md:flex-no-wrap space-y-2 sm:space-y-0 justify-start sm:space-x-4 validate px-0"
+            className="flex flex-wrap md:flex-no-wrap space-y-2 md:space-y-0 justify-start md:space-x-4 validate px-0"
           >
-            <div className="w-full sm:w-64 relative">
+            <div className="w-full md:w-64 relative">
               <input
                 placeholder="Your Email"
-                className="border-2 border-gray-300 rounded-md w-full sm:w-64 pl-3 py-2"
+                className="border-2 border-gray-300 rounded-md w-full md:w-64 pl-3 py-2"
                 type="email"
                 name="EMAIL"
                 ref={(node) => (email = node)}
@@ -69,10 +69,10 @@ const HeroText = () => {
                 </div>
               )}
             </div>
-            <div className="w-full sm:w-auto">
+            <div className="w-full md:w-auto">
               <button
                 type="submit"
-                className={`bg-main-pink-500 text-white hover:bg-main-pink-400 rounded-md py-2 px-6 w-full sm:w-auto ${
+                className={`bg-main-pink-500 text-white hover:bg-main-pink-400 rounded-md py-2 px-6 w-full md:w-auto ${
                   status === "sending"
                     ? "opacity-50 pointer-events-none focus:outline-none"
                     : ""
