@@ -65,7 +65,7 @@ const HeroText = () => {
               )}
               {status === "success" && (
                 <div className={`${cardClasses} text-green-700`}>
-                  Your are now subscribed to Champions Round! Check your email.
+                  Your are now subscribed to Champions Round!
                 </div>
               )}
             </div>
