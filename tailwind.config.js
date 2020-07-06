@@ -5,6 +5,7 @@ module.exports = {
       colors: {
         "main-blue-500": "#003DA3",
         "main-pink-500": "#F13477",
+        "main-pink-400": "#f3588e",
       },
       width: {
         "11/25": "44%",
@@ -28,6 +29,9 @@ module.exports = {
         "footer-xl": "5.05rem",
         "footer-xxl": "14.4rem",
       },
+      fontSize: {
+        'mobile-h2': "1.91rem"
+      }
     },
   },
   variants: {},

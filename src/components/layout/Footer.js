@@ -10,7 +10,7 @@ const Footer = () => {
     >
       <div className="flex flex-wrap-reverse items-center h-full lg:space-y-4 justify-center lg:justify-between mx-auto lg:px-footer-lg xl:px-footer-xl px-8 xxl:px-footer-xxl container space-y-8">
         <div className="w-full lg:w-auto flex flex-col items-center lg:block">
-          <h3 className="uppercase text-white text-xl mb-3">Follow Us</h3>
+          <h3 className="uppercase text-white text-xl mb-3 font-bold">Follow Us</h3>
           <div className="flex space-x-3">
             <a
               href="https://www.facebook.com/championsroundgame"
