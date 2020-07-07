@@ -12431,6 +12431,10 @@ video {
   width: 44px;
 }
 
+.w-footer-appstore {
+  width: 183px;
+}
+
 .z-0 {
   z-index: 0;
 }
@@ -26752,6 +26756,10 @@ body {
     width: 44px;
   }
 
+  .sm\:w-footer-appstore {
+    width: 183px;
+  }
+
   .sm\:z-0 {
     z-index: 0;
   }
@@ -41021,6 +41029,10 @@ body {
 
   .md\:w-footer-socials {
     width: 44px;
+  }
+
+  .md\:w-footer-appstore {
+    width: 183px;
   }
 
   .md\:z-0 {
@@ -55294,6 +55306,10 @@ body {
     width: 44px;
   }
 
+  .lg\:w-footer-appstore {
+    width: 183px;
+  }
+
   .lg\:z-0 {
     z-index: 0;
   }
@@ -69565,6 +69581,10 @@ body {
     width: 44px;
   }
 
+  .xl\:w-footer-appstore {
+    width: 183px;
+  }
+
   .xl\:z-0 {
     z-index: 0;
   }
@@ -83834,6 +83854,10 @@ body {
 
   .xxl\:w-footer-socials {
     width: 44px;
+  }
+
+  .xxl\:w-footer-appstore {
+    width: 183px;
   }
 
   .xxl\:z-0 {

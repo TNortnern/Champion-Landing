@@ -69,8 +69,9 @@ const Footer = () => {
               className="opacity-90 transform hover:scale-105 hover:opacity-100 duration-200 ease-in-out inline-block"
             >
               <img
-                src={require("../../assets/appstore.png")}
+                src={require("../../assets/appstore2x.png")}
                 alt="takes you to the champion round app download page"
+                className="w-footer-appstore"
               />
             </a>
           </div>
