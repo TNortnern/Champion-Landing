@@ -1,9 +1,11 @@
 import React from 'react'
 import LogoImage from '../../assets/logo2.png'
+import MobileLogo from '../../assets/mobileLogo.png'
 const LogoSvg = () => {
   return (
+    <>
     <svg
-    className="h-20 md:w-19/50"
+    className="h-20 md:w-19/50 hidden md:block"
       xmlns="http://www.w3.org/2000/svg"
       xmlnsXlink="http://www.w3.org/1999/xlink"
       width="548.397"
@@ -92,6 +94,8 @@ const LogoSvg = () => {
         </g>
       </g>
     </svg>
+    <img className="block md:hidden" style={{ width: '200px' }} src={MobileLogo} alt="main logo"/>
+    </>
   );
 }
 
