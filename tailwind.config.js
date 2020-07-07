@@ -15,7 +15,7 @@ module.exports = {
       },
       height: {
         "hero-img-md": "450px",
-        "hero-img-lg": "560px",
+        "hero-img-lg": "570px",
         "hero-img-xxl": "640px",
       },
       inset: {
@@ -30,7 +30,7 @@ module.exports = {
         "85": "85%",
       },
       padding: {
-        "footer-lg": "6.04rem",
+        "footer-lg": "4.04rem",
         "footer-xl": "5.05rem",
         "footer-xxl": "14.4rem",
       },
