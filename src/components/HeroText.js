@@ -8,9 +8,9 @@ const HeroText = () => {
   const cardClasses =
     "bg-white shadow-lg relative sm:absolute mt-3 mb-3 sm:mt-2 sm:mb-0 w-full rounded-sm py-2 px-3 z-50 text-xs sm:text-sm text-center sm:text-left";
   return (
-    <div className="w-11/12 md:w-1/2 text-left lg:w-11/25 xl:w-1/2 pt-4 xl:pt-8 flex flex-col px-4 sm:px-0 sm:block">
-      <div className="text-mobile-h2 lg:text-4xl xl:text-5xl uppercase mb-4 font-black font-circular-black text-left whitespace-no-wrap block sm:inline-flex sm:flex-col sm:items-center w-full md:block">
-        <h2 className="h-8 xl:h-12">
+    <div className="w-11/12 text-left lg:w-11/25 xl:w-1/2 pt-4 xl:pt-8 flex flex-col px-4 sm:px-0 sm:block">
+      <div className="text-mobile-h2 md:text-5xl lg:text-4xl xl:text-5xl uppercase mb-4 font-black font-circular-black text-left whitespace-no-wrap block sm:inline-flex sm:flex-col sm:items-center w-full lg:block">
+        <h2 className="h-8 md:h-12 lg:h-8 xl:h-12">
           Fantasy Sports.
         </h2>
         <h2>
@@ -43,12 +43,12 @@ const HeroText = () => {
             name="mc-embedded-subscribe-form"
             target="_blank"
             novalidate
-            className="flex flex-wrap md:flex-no-wrap space-y-2 md:space-y-0 justify-start md:space-x-4 validate px-0"
+            className="flex flex-wrap lg:flex-no-wrap space-y-2 lg:space-y-0 justify-start lg:space-x-4 validate px-0"
           >
-            <div className="w-full md:w-64 relative">
+            <div className="w-full lg:w-64 relative">
               <input
                 placeholder="Your Email"
-                className="border-2 border-gray-300 rounded-md w-full md:w-64 pl-3 py-2"
+                className="border-2 border-gray-300 rounded-md w-full lg:w-64 pl-3 py-2"
                 type="email"
                 name="EMAIL"
                 ref={(node) => (email = node)}
@@ -74,10 +74,10 @@ const HeroText = () => {
                 </div>
               )}
             </div>
-            <div className="w-full md:w-auto">
+            <div className="w-full lg:w-auto">
               <button
                 type="submit"
-                className={`bg-main-pink-500 text-white hover:bg-main-pink-400 rounded-md py-2 px-6 w-full md:w-auto ${
+                className={`bg-main-pink-500 text-white hover:bg-main-pink-400 rounded-md py-2 px-6 w-full lg:w-auto ${
                   status === "sending"
                     ? "opacity-50 pointer-events-none focus:outline-none"
                     : ""
