@@ -9,7 +9,8 @@ module.exports = {
       },
       width: {
         "11/25": "44%",
-        "19/50": "38%"
+        "19/50": "38%",
+        "footer-socials": "44px"
       },
       height: {
         "hero-img-md": "450px",

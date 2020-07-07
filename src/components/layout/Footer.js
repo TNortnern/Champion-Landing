@@ -20,7 +20,11 @@ const Footer = () => {
               target="__blank"
               className="opacity-90 transform hover:scale-105 hover:opacity-100 duration-200 ease-in-out"
             >
-              <img src={require("../../assets/facebook.png")} alt="" />
+              <img
+                className="w-footer-socials"
+                src={require("../../assets/facebook2x.png")}
+                alt=""
+              />
             </a>
             <a
               href="http://bit.ly/champs_ig"
@@ -28,7 +32,8 @@ const Footer = () => {
               className="opacity-90 transform hover:scale-105 hover:opacity-100 duration-200 ease-in-out"
             >
               <img
-                src={require("../../assets/instagram-sketched.png")}
+                className="w-footer-socials"
+                src={require("../../assets/instagram-sketched2x.png")}
                 alt="takes you to the champion round instagram"
               />
             </a>
@@ -37,14 +42,22 @@ const Footer = () => {
               target="__blank"
               className="opacity-90 transform hover:scale-105 hover:opacity-100 duration-200 ease-in-out"
             >
-              <img src={require("../../assets/twitter.png")} alt="takes you to the champion round twitter page" />
+              <img
+                className="w-footer-socials"
+                src={require("../../assets/twitter2x.png")}
+                alt="takes you to the champion round twitter page"
+              />
             </a>
             <a
               href="http://bit.ly/champs_youtube"
               target="__blank"
               className="opacity-90 transform hover:scale-105 hover:opacity-100 duration-200 ease-in-out"
             >
-              <img src={require("../../assets/youtube.png")} alt="takes you to the champion round youtube page" />
+              <img
+                className="w-footer-socials"
+                src={require("../../assets/youtube2x.png")}
+                alt="takes you to the champion round youtube page"
+              />
             </a>
           </div>
         </div>
@@ -55,7 +68,10 @@ const Footer = () => {
               target="__blank"
               className="opacity-90 transform hover:scale-105 hover:opacity-100 duration-200 ease-in-out inline-block"
             >
-              <img src={require("../../assets/appstore.png")} alt="takes you to the champion round app download page" />
+              <img
+                src={require("../../assets/appstore.png")}
+                alt="takes you to the champion round app download page"
+              />
             </a>
           </div>
           <span className="text-white text-sm hidden lg:block">
