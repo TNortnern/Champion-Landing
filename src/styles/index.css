@@ -6236,6 +6236,14 @@ video {
   font-family: Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
 }
 
+.font-circular-bold {
+  font-family: Circular Std Bold;
+}
+
+.font-circular-black {
+  font-family: Circular Std Black;
+}
+
 .font-hairline {
   font-weight: 100;
 }
@@ -12415,6 +12423,10 @@ video {
   width: 44%;
 }
 
+.w-19\/50 {
+  width: 38%;
+}
+
 .z-0 {
   z-index: 0;
 }
@@ -14874,11 +14886,19 @@ video {
 }
 
 @font-face {
-  font-family: Circular Std Book;
+  font-family: Circular Std Bold;
 
   font-weight: 700;
 
-  src: url('../assets/font/circular-bold.otf');
+  src: url('../assets/font/circular-bold.otf') format("opentype");
+}
+
+@font-face {
+  font-family: Circular Std Black;
+
+  font-weight: 900;
+
+  src: url('../assets/font/circular-black.otf') format("opentype");
 }
 
 body {
@@ -20531,6 +20551,14 @@ body {
 
   .sm\:font-mono {
     font-family: Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  }
+
+  .sm\:font-circular-bold {
+    font-family: Circular Std Bold;
+  }
+
+  .sm\:font-circular-black {
+    font-family: Circular Std Black;
   }
 
   .sm\:font-hairline {
@@ -26710,6 +26738,10 @@ body {
 
   .sm\:w-11\/25 {
     width: 44%;
+  }
+
+  .sm\:w-19\/50 {
+    width: 38%;
   }
 
   .sm\:z-0 {
@@ -34788,6 +34820,14 @@ body {
     font-family: Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
   }
 
+  .md\:font-circular-bold {
+    font-family: Circular Std Bold;
+  }
+
+  .md\:font-circular-black {
+    font-family: Circular Std Black;
+  }
+
   .md\:font-hairline {
     font-weight: 100;
   }
@@ -40965,6 +41005,10 @@ body {
 
   .md\:w-11\/25 {
     width: 44%;
+  }
+
+  .md\:w-19\/50 {
+    width: 38%;
   }
 
   .md\:z-0 {
@@ -49043,6 +49087,14 @@ body {
     font-family: Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
   }
 
+  .lg\:font-circular-bold {
+    font-family: Circular Std Bold;
+  }
+
+  .lg\:font-circular-black {
+    font-family: Circular Std Black;
+  }
+
   .lg\:font-hairline {
     font-weight: 100;
   }
@@ -55220,6 +55272,10 @@ body {
 
   .lg\:w-11\/25 {
     width: 44%;
+  }
+
+  .lg\:w-19\/50 {
+    width: 38%;
   }
 
   .lg\:z-0 {
@@ -63298,6 +63354,14 @@ body {
     font-family: Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
   }
 
+  .xl\:font-circular-bold {
+    font-family: Circular Std Bold;
+  }
+
+  .xl\:font-circular-black {
+    font-family: Circular Std Black;
+  }
+
   .xl\:font-hairline {
     font-weight: 100;
   }
@@ -69475,6 +69539,10 @@ body {
 
   .xl\:w-11\/25 {
     width: 44%;
+  }
+
+  .xl\:w-19\/50 {
+    width: 38%;
   }
 
   .xl\:z-0 {
@@ -77553,6 +77621,14 @@ body {
     font-family: Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
   }
 
+  .xxl\:font-circular-bold {
+    font-family: Circular Std Bold;
+  }
+
+  .xxl\:font-circular-black {
+    font-family: Circular Std Black;
+  }
+
   .xxl\:font-hairline {
     font-weight: 100;
   }
@@ -83730,6 +83806,10 @@ body {
 
   .xxl\:w-11\/25 {
     width: 44%;
+  }
+
+  .xxl\:w-19\/50 {
+    width: 38%;
   }
 
   .xxl\:z-0 {

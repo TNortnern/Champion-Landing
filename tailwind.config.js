@@ -9,6 +9,7 @@ module.exports = {
       },
       width: {
         "11/25": "44%",
+        "19/50": "38%"
       },
       height: {
         "hero-img-md": "450px",
@@ -33,6 +34,10 @@ module.exports = {
       },
       fontSize: {
         'mobile-h2': "1.83rem"
+      },
+      fontFamily: {
+        "circular-bold": "Circular Std Bold",
+        "circular-black": "Circular Std Black",
       }
     },
   },
