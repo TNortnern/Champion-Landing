@@ -9,7 +9,7 @@ const HeroText = () => {
     "bg-white shadow-lg relative sm:absolute mt-3 mb-3 sm:mt-2 sm:mb-0 w-full rounded-sm py-2 px-3 z-50 text-xs sm:text-sm text-center sm:text-left";
   return (
     <div className="w-11/12 text-left lg:w-11/25 xl:w-1/2 pt-8 xl:pt-8 flex flex-col px-4 sm:px-0 sm:block">
-      <div className="text-mobile-h2 sm:text-5xl lg:text-4xl xl:text-5xl uppercase mb-4 font-black font-circular-black text-left whitespace-no-wrap block sm:inline-flex sm:flex-col sm:items-center w-full lg:block">
+      <div className="text-mobile-h2 sm:text-5xl lg:text-4xl xl:text-5xl uppercase mb-4 font-black font-circular-black text-left whitespace-no-wrap inline-flex flex-col items-center w-full lg:block">
         <h2 className="h-8 sm:h-12 lg:h-8 xl:h-12">
           Fantasy Sports.
         </h2>
